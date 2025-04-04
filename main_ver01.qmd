@@ -44,7 +44,7 @@ Below you can find some background information on the cohort that can be relevan
 
 4.  Background info
 
-    a.  Wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.doc`">`{=html}Wording of questions (in Danish)</a>
+    a.  Wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
     b.  Metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
 
 Be aware that most of these documents are work in progress…
