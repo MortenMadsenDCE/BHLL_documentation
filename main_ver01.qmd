@@ -14,11 +14,13 @@ Of the original 301,244 individuals who were invited to participate, 114,555 res
 
 *More info in the cohort profile paper*: <https://doi.org/10.2147/CLEP.S436617>
 
+Defining studypopulation BHLL questionaire version1
+
 ## content:
 
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse. Content:
 
-1.  Defining study population –\>
+1.  [Help for defining study population](../Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
 
 2.  List of relevant variables that have been calculated or cleaned up before and are therefore easilier accessible for future studies:
 
