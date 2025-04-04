@@ -18,36 +18,34 @@ Of the original 301,244 individuals who were invited to participate, 114,555 res
 
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse. Content:
 
-1.  Defining study population 
+1.  Defining study population –\>
 
-2.  List of relevant variables that have been calculated or cleaned up before and are easily accessible for future studies:
+2.  List of relevant variables that have been calculated or cleaned up before and are therefore easilier accessible for future studies:
 
-    a.  SEP-variables (Cathrine and Morten) 
+    a.  SEP-variables (Cathrine and Morten) –\>
 
-    b.  Dietary score (Julie) (work in progress)
+    b.  Dietary score (Julie) –\>(work in progress)
 
-    c.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS) 
+    c.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS) –\>
 
-    <!-- -->
+    d.  A rough cancer staging for main cancer types (Julie, Emma, Caroline) –\> (work in progress)
 
-    d.  A rough cancer staging for main cancer types (Julie, Emma, Carline) (work in progress)
+    e.  BMI (Frederik) –\>
 
-    e.  BMI (Frederik) 
+    f.  Dataset with background population of all Danes 50–65-year-old, to access generalizability of respondents (Morten) –\>
 
-    f.  Dataset with background population of all Danes 50–65-year-old, to access generalizability of respondents (Morten) 
-
-    g.  Overview of missingness of each question (work in progress)
+    g.  Overview of missingness of each question–\> (work in progress)
 
 3.  Published papers:
 
-    a.  Cohort Profile: Better Health in Late Life <https://doi.org/10.2147/CLEP.S436617>
+    a.  Cohort Profile: Better Health in Late Life–\> <https://doi.org/10.2147/CLEP.S436617>
 
     b.  …?
 
 4.  Background info
 
-    a.  Wording of questions in questionnaire (in Danish)  (ok)
-    b.  Metodenotat om udvælgelse af populationen (in Danish)  (ok)
+    a.  Wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.doc`">`{=html}Wording of questions (in Danish)</a>
+    b.  Metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
 
 Be aware that most of these documents are work in progress…
 
