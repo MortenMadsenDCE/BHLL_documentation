@@ -20,7 +20,7 @@ Defining studypopulation BHLL questionaire version1
 
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse. Content:
 
-1.  [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
+1. Dwonload: [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
 
 2.  List of relevant variables that have been calculated or cleaned up before and are therefore easilier accessible for future studies:
 
@@ -46,8 +46,8 @@ Below you can find some background information on the cohort that can be relevan
 
 4.  Background info
 
-    a.  Wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
-    b.  Metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
+    a.  Download wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
+    b.  Download metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
 
 Be aware that most of these documents are work in progress…
 
@@ -56,3 +56,5 @@ Be aware that most of these documents are work in progress…
 The data collection has been supported by a personal grant to Henrik Toft Sørensen from the Novo Nordisk Foundation (the Hagedorn Award). A steering committee, chaired by Professor Henrik Toft Sørensen, Principal Investigator and initiator of the study, was appointed by Aarhus University. Interested scientists can apply for access to the data presented in this manuscript by contacting the chair of the committee via e-mail (hks\@clin.au.dk or hts\@clin.au.dk).
 
 Internal researched with accepted projects can contact Morten Madsen (morten.madsen\@clin.au.dk) in case of further questions
+
+Test2...
