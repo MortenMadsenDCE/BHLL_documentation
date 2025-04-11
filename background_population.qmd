@@ -1,0 +1,35 @@
+---
+title: "Background_population"
+author: "Morten"
+format: html
+editor: visual
+---
+
+## Background Population
+
+For the study BHLL - representativeness Morten has been creating a dataset with background-population.\
+
+**Details**
+
+The aim of the representatives study is to develop weights for the BHLL-cohort to make it more comparable with the background population, and to access this by comparing mortality in BHLL with mortality in background population.
+
+The background population cohort (DK50_65) is selected on similar cirteria as BHLL-cohort:
+
+-   50-65 years September 1st 2021.
+
+-   (Resident in DK 30jun2021... Or 31dec2020 ...decide)
+
+-   Each individual is assigned an artificial index-date (uniformly distributed throughout October and November), that makes the distribution of index-dates comparable between BHLL-cohort and background-cohort.
+
+The BHLL-cohort is a subgroup of this DK50_65 cohort (at least if the BHLL-cohort is restricted to persons resident in DK 31dec2020 - see "Help defining study population"...).
+
+**Usage in other BHLL-studies**\
+Besides using the cohort for the specific representativeness study, it can as well be used to add a little background information for most studies. E.g. a study in quality of life among stroke-survivors, can be supplemented with a table of prevalence of stroke-survivors in the background population, their medication use, comorbidities and their mortality.
+
+**For the statistician:**
+
+A sas dataset of the cohort (with variables) will be accessible at the server as DK50_65 ...
+
+Representativenes results:
+
+The very first results from representativenes study has been presented at ICPE Aug2024. [The poster can be downloaded here.](Representativeness ICPE2024 final.pdf "Representativeness ICPE2024 final.pdf")
