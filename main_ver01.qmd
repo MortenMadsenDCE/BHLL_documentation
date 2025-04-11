@@ -20,7 +20,7 @@ Defining studypopulation BHLL questionaire version1
 
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse. Content:
 
-1. Download: [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
+1.  Download: [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
 
 2.  List of relevant variables that have been calculated or cleaned up before and are therefore might be relevant to reuse in future studies:
 
@@ -34,7 +34,7 @@ Below you can find some background information on the cohort that can be relevan
 
     e.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
 
-    f.  Dataset with background population of all Danes 50–65-year-old, to access generalizability of respondents (Morten) –\> 
+    f.  [Dataset with background population of all Danes 50–65-year-old](background_population.html), to access generalizability of respondents (Morten)
 
     g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
 
@@ -56,4 +56,3 @@ Be aware that most of these documents are work in progress…
 The data collection has been supported by a personal grant to Henrik Toft Sørensen from the Novo Nordisk Foundation (the Hagedorn Award). A steering committee, chaired by Professor Henrik Toft Sørensen, Principal Investigator and initiator of the study, was appointed by Aarhus University. Interested scientists can apply for access to the data presented in this manuscript by contacting the chair of the committee via e-mail (hks\@clin.au.dk or hts\@clin.au.dk).
 
 Internal researched with accepted projects can contact Morten Madsen (morten.madsen\@clin.au.dk) in case of further questions
-
