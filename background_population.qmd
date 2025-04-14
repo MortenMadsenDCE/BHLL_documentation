@@ -32,4 +32,4 @@ A sas dataset of the cohort (with variables) will be accessible at the server as
 
 Representativenes results:
 
-The very first results from representativenes study has been presented at ICPE Aug2024. [The poster can be downloaded here.](Representativeness ICPE2024 final.pdf "Representativeness ICPE2024 final.pdf")
+The very first results from representativenes study has been presented at ICPE Aug2024. [The poster can be downloaded here.](Representativeness%20ICPE2024%20final.pdf "Representativeness ICPE2024 final.pdf")
