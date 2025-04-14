@@ -1,0 +1,24 @@
+---
+title: "Dietary score"
+author: "Morten"
+format: html
+editor: visual
+---
+
+## Dietary Score
+
+Julie and Morten have been working on a dietary score for Julies project on nutrition among cancer survivors (2024/2025).
+
+Julie writes (apr2025):
+
+Den score vi har lavet er en adapteret version af en score til kræftforebyggelse – se de to første referencer. Denne score er måske også relevant for CVD – se den sidste ref.
+
+\
+[Operationalizing the 2018 World Cancer Research Fund/American Institute for Cancer Research (WCRF/AICR) Cancer Prevention Recommendations: A Standardized Scoring System - PubMed](https://pubmed.ncbi.nlm.nih.gov/31336836/)
+
+[Further Guidance in Implementing the Standardized 2018 World Cancer Research Fund/American Institute for Cancer Research (WCRF/AICR) Score - PubMed](https://pubmed.ncbi.nlm.nih.gov/32152215/)
+
+[The 2018 World Cancer Research Fund/American Institute for Cancer Research (WCRF/AICR) Score and All-Cause, Cancer, and Cardiovascular Disease Mortality Risk: A Longitudinal Analysis in the NIH-AARP Diet and Health Study - PubMed](https://pubmed.ncbi.nlm.nih.gov/35755938/)
+
+\
+(More info on distribution etc. will follow...)

@@ -14,8 +14,6 @@ Of the original 301,244 individuals who were invited to participate, 114,555 res
 
 *More info in the cohort profile paper*: <https://doi.org/10.2147/CLEP.S436617>
 
-Defining studypopulation BHLL questionaire version1
-
 ## content:
 
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse. Content:
@@ -26,7 +24,7 @@ Below you can find some background information on the cohort that can be relevan
 
     a.  SEP-variables (Cathrine and Morten) –\> (April 2025: Morten and Cathrine are working on a set of recommended, well defined and easy accessible SEP-variables that can easily be included in your study)
 
-    b.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing a dietary score for nutrion among cancer patients. Maybe possible to reuse in other projects)
+    b.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.hmtl). Maybe possible to reuse in other projects)
 
     c.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS) –\> (Dataset with PSS; MDI; MCS and PCS scores for all BHLL-respondents exists... to be added: note with official reference for SF-12 score and MCS/PCS scoring...)
 
@@ -38,13 +36,15 @@ Below you can find some background information on the cohort that can be relevan
 
     g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
 
-3.  Published papers:
+3.  Follow up: At the moment (April 2025) we have FU (mortality, hospital visists, medication use) until the end of 2022 at the DST-project with our BHLL-data. We hope to get access to FU until end of 2023 within a few months (?)
+
+4.  Published papers:
 
     a.  Cohort Profile: Better Health in Late Life–\> <https://doi.org/10.2147/CLEP.S436617>
 
     b.  …?
 
-4.  Background info
+5.  Background info
 
     a.  Download wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
     b.  Download metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
@@ -53,6 +53,6 @@ Be aware that most of these documents are work in progress…
 
 ## Contact:
 
-The data collection has been supported by a personal grant to Henrik Toft Sørensen from the Novo Nordisk Foundation (the Hagedorn Award). A steering committee, chaired by Professor Henrik Toft Sørensen, Principal Investigator and initiator of the study, was appointed by Aarhus University. Interested scientists can apply for access to the data presented in this manuscript by contacting the chair of the committee via e-mail (hks\@clin.au.dk or hts\@clin.au.dk).
+The data collection has been supported by a personal grant to Henrik Toft Sørensen from the Novo Nordisk Foundation (the Hagedorn Award). A steering committee, chaired by Professor Henrik Toft Sørensen, Principal Investigator and initiator of the study, was appointed by Aarhus University. Interested scientists can apply for access to the data presented in this manuscript by contacting the chair of the committee via e-mail (Henrik Toft Sørensen / Hanne Kjeldahl Schlosser <https://kea.au.dk/> ).
 
-Internal researched with accepted projects can contact Morten Madsen (morten.madsen\@clin.au.dk) in case of further questions
+Internal researchers or researchers with accepted projects can contact Morten Madsen (<https://kea.au.dk/>) in case of further questions.
