@@ -36,6 +36,8 @@ Below you can find some background information on the cohort that can be relevan
 
     g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
 
+    h.  [Help to interpret answers to the physical activity questions](https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf "https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf").
+
 3.  Follow up: At the moment (April 2025) we have FU (mortality, hospital visists, medication use) until the end of 2022 at the DST-projects(708194 / 709876) with our BHLL-data. We hope to get access to FU until end of 2023 within a few months (?)
 
 4.  Published papers:
