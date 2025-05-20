@@ -38,6 +38,8 @@ Below you can find some background information on the cohort that can be relevan
 
     h.  [Help to interpret answers to the physical activity questions](https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf "https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf").
 
+    i.  Some diseases are complicated to identify well using registries: CKD, (diabetes). The plan is to prepare a dataset with information on these diseases as well as thorough documentation of these. Status May 2025: Morten is working on CKD together with Christian/Uffe/Simon and Anne.
+
 3.  Follow up: At the moment (April 2025) we have FU (mortality, hospital visists, medication use) until the end of 2022 at the DST-projects(708194 / 709876) with our BHLL-data. We hope to get access to FU until end of 2023 within a few months (?)
 
 4.  Published papers:
