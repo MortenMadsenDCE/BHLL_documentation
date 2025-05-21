@@ -40,9 +40,11 @@ CKD-grades: As above, except the chosen level:
 
 uACR - NPUcodes (proportion): NPU03918 (0%), NPU19661 (99%), NPU28842 (1%).
 
-NPU28842 is measured in g/mol. The conversion factor to mg/g is 0.113 (mg/g)/(g/mol)
+NPU28842 is measured in g/mol. The conversion factor to mg/g is 0.113 (mg/g)/(g/mol).
 
-uACR identified på two codes\>=30 mg/g, separated at least 90 days.
+Non-numeric values: If measurements for NPU19661 (\~2%) are noted as \<x (x typicaly beneath 30, but a few above as well) they are ignored. A few measurements (approx. 30) are noted as \>y (where y is a high number larger than 800). These are kept.
+
+uACR identified på two codes\>=30 mg/g, separated by at least 90 days.
 
 ### Dataset:
 
@@ -52,6 +54,9 @@ The dataset includes the following variables
 -   int_dato (artificial int_dato for background population)
 -   CKD as binary variable
 -   CKD-grade {0, 3a, 3b, 4, 5}
+-   uACR (binary)
 -   CKD_or_uACR (binary)
 
-The dataset is located at...
+The dataset is located as DK5065_ckd (a dated version is also available). At
+
+E:\\ProjektDB\\KEA\\Workdata\\708194\\Morten Madsen\\survey50+\\CKD_Anne\\WorkCKD\\
