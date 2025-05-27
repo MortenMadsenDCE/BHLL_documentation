@@ -13,7 +13,7 @@ E:\\ProjektDB\\KEA\\Workdata\\708194\\BHLL\\Studybase_prep\\BHLLprep_data\\score
 
 And it is created by the program:
 
-E:\\ProjektDB\\KEA\\Workdata\\708194\\Studybase_prep\\02 - 50plus_scores_ny.sas (but might be renamed soon...)
+E:\\ProjektDB\\KEA\\Workdata\\708194\\Studybase_prep\\02 BHLL scores - MCS PCS PSS MDI.sas
 
 ## About the scores:
 
