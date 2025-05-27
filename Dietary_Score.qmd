@@ -22,3 +22,5 @@ Den score vi har lavet er en adapteret version af en score til kræftforebyggels
 
 \
 (More info on distribution etc. will follow...)
+
+The Danish dietary guidelines: <https://foedevarestyrelsen.dk/kost-og-foedevarer/alt-om-mad/de-officielle-kostraad/kostraad-til-dig/om-de-officielle-kostraad>

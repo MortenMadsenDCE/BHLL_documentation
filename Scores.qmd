@@ -28,8 +28,10 @@ short-form health survey known as SF12v2 (Quality Metric Incorporated, license n
 
 [29.](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#ref-cit0029) Cohen S, Kamarck T, Mermelstein R. A global measure of **perceived stress**. *J Health Soc Behav*. 1983;24(4):385–396. doi:10.2307/2136404
 
-Regarding Danish translations see:
+Regarding Danish translations see: <https://www.dovepress.com/article/supplementary_file/436617/436617.pdf>
 
-<https://www.dovepress.com/article/supplementary_file/436617/436617.pdf>
+Another reference for MDI:
+
+1.   Bech P, Timmerby N, Martiny K, et al. Psychometric evaluation of the **Major Depression Inventory (MDI)** as depression severity scale using the LEAD (Longitudinal Expert Assessment of All Data) as index of validity. BMC Psychiatry 2015;15:190.
 
 Edited: Morten Madsen 27/5-2025

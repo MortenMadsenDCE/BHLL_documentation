@@ -24,7 +24,7 @@ Below you can find some background information on the cohort that can be relevan
 
     a.  SEP-variables (Cathrine and Morten) –\> (April 2025: Morten and Cathrine are working on a set of recommended, well defined and easy accessible SEP-variables that can easily be included in your study)
 
-    b.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html). Maybe possible to reuse in other projects)
+    b.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
 
     c.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
 
