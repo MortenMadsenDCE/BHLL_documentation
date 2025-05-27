@@ -38,9 +38,9 @@ CKD-grades: As above, except the chosen level:
 -   CKD grade 3b: Two measurements \<45 ml/min/1.73m^2^ and not of grade 4 or 5
 -   CKD grade 3a: Two measurements \<60 ml/min/1.73m^2^ and not of grade 3b, 4 or 5
 
-uACR - NPUcodes (proportion): NPU03918 (0%), NPU19661 (99%), NPU28842 (1%).
+uACR (urine albumin-creatinine ratio) - NPUcodes (proportion): NPU03918 (0%), NPU19661 (99%), NPU28842 (1%).
 
-NPU28842 is measured in g/mol. The conversion factor to mg/g is 0.113 (mg/g)/(g/mol).
+NPU28842 is measured in g/mol. The conversion factor to mg/g is 8.84 (mg/g)/(g/mol).
 
 Non-numeric values: If measurements for NPU19661 (\~2%) are noted as \<x (x typicaly beneath 30, but a few above as well) they are ignored. A few measurements (approx. 30) are noted as \>y (where y is a high number larger than 800). These are kept.
 
