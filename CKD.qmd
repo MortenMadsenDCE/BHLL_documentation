@@ -9,7 +9,7 @@ editor: visual
 
 CKD is identified through lab-measures that are taken at outpatient visits and GP-visits. So not during inpatient stay and not during emergency room visits.
 
-This algorithm has been developed by the Kidney-group (Uffe, Christian, Simon, Anne,...), and implemented for the BHLL-data by Morten in May 2025.\
+This algorithm has been developed by the Kidney-group (Uffe, Christian, Simon, Anne,...) and implemented for the BHLL-data by Morten in May 2025.\
 
 ### Identifying inpatient and emergency room visits:
 
@@ -25,7 +25,7 @@ All lab-measurements taken on a calendar date involved in one of the inpatient v
 
 Lab-measurements in the period from 5 years prior to the index date until index date are selected.
 
-Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NOU18016} (*NPU09101 is not available...?)* (*We are considering NPU18105...?)*
+Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NPU18016} (We don't find any measurements for neither NPU01807 nor NPU17559) (*NPU09101 was requested, but is not available in this project. But Uffe doesn't find any of these in his study at SDS)* (And we include the very few *measurements of NPU18105 (0.01%). This is not standard in other CKD studies, but has been included in other BHLL-studies)*
 
 eGFR is calculated ... (based on gender and age at time of measurement).
 
@@ -60,3 +60,5 @@ The dataset includes the following variables
 The dataset is located as DK5065_ckd (a dated version is also available). At
 
 E:\\ProjektDB\\KEA\\Workdata\\708194\\Morten Madsen\\survey50+\\CKD_Anne\\WorkCKD\\
+
+Morten Madsen 27/5-2025
