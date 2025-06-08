@@ -71,23 +71,45 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="background-population" class="level2">
 <h2 class="anchored" data-anchor-id="background-population">Background Population</h2>
-<p>For the study BHLL - representativeness Morten has been creating a dataset with background-population.<br>
+<p>For the study BHLL - representativeness Morten has been creating a dataset with background-population.</p>
+<p>You can find the background population both named <em>stor_pop</em> (big population) and <em>DK5065</em> (Danes aged 50-65) at different places in this documentation as well as in existing programs.<br>
 </p>
 <p><strong>Details</strong></p>
 <p>The aim of the representatives study is to develop weights for the BHLL-cohort to make it more comparable with the background population, and to access this by comparing mortality in BHLL with mortality in background population.</p>
-<p>The background population cohort (DK50_65) is selected on similar cirteria as BHLL-cohort:</p>
+<p>The background population cohort (DK50_65) is selected on similar criteria as BHLL-cohort:</p>
 <ul>
 <li><p>50-65 years September 1st 2021.</p></li>
-<li><p>(Resident in DK 30jun2021… Or 31dec2020 …decide)</p></li>
-<li><p>Each individual is assigned an artificial index-date (uniformly distributed throughout October and November), that makes the distribution of index-dates comparable between BHLL-cohort and background-cohort.</p></li>
+<li><p>Resident in Denmark 31dec2020.</p></li>
+<li><p>Each individual is assigned an artificial index-date (distributed throughout autumn 2021 with same distribution as the BHLL-cohort). (Algortihm for this was developed by Istvan)</p></li>
 </ul>
-<p>The BHLL-cohort is a subgroup of this DK50_65 cohort (at least if the BHLL-cohort is restricted to persons resident in DK 31dec2020 - see “Help defining study population”…).</p>
-<p><strong>Usage in other BHLL-studies</strong><br>
-Besides using the cohort for the specific representativeness study, it can as well be used to add a little background information for most studies. E.g. a study in quality of life among stroke-survivors, can be supplemented with a table of prevalence of stroke-survivors in the background population, their medication use, comorbidities and their mortality.</p>
-<p><strong>For the statistician:</strong></p>
-<p>A sas dataset of the cohort (with variables) will be accessible at the server as DK50_65 …</p>
-<p>Representativenes results:</p>
+<p>The BHLL-respondents is a subgroup within this population (except a very few who immigrated to Denmark in the period 01jan2021-30jun2021 - which I suggest excluding anyway, because we have limited background information on these - see “Help defining study population”…).</p>
+<section id="usage-in-other-bhll-studies" class="level3">
+<h3 class="anchored" data-anchor-id="usage-in-other-bhll-studies"><strong>Usage in other BHLL-studies</strong></h3>
+<p>Besides using the cohort for the specific representativeness study, it can as well be used to add a little background information for most studies. E.g. a study in quality of life among stroke-survivors, can be supplemented with a table of prevalence of stroke-survivors in the background population, their medication use, comorbidities and their mortality.</p>
+</section>
+<section id="representativenes-results" class="level3">
+<h3 class="anchored" data-anchor-id="representativenes-results">Representativenes results:</h3>
 <p>The very first results from representativenes study has been presented at ICPE Aug2024. <a href="Representativeness%20ICPE2024%20final.pdf" title="Representativeness ICPE2024 final.pdf">The poster can be downloaded here.</a></p>
+<p>… More results (as well as weights for the BHLL-population) will follow…</p>
+</section>
+</section>
+<section id="for-the-statistician" class="level2">
+<h2 class="anchored" data-anchor-id="for-the-statistician"><strong>For the statistician:</strong></h2>
+<p>The SAS-dataset can be found as <strong>BHLLdata.stor_pop</strong>.sas7bdat (older versions with date exists as well).</p>
+<p>With the library BHLLdata pointing at: <em>E:\ProjektDB\KEA\Workdata\708194\BHLL\Studybase_prep\BHLLprep_data\</em></p>
+<p>The program creating the dataset is:</p>
+<ul>
+<li><em>E:\ProjektDB\KEA\Workdata\708194\BHLL\Studybase_prep\03 stor_pop.sas</em></li>
+</ul>
+<p>Variables include:</p>
+<ul>
+<li><p><strong>pnr</strong></p></li>
+<li><p><strong>int_dato</strong> (interview-date - for the BHLL cohort the actual date, for background population an artificial date with the same distribution during autumn 2021).</p></li>
+<li><p><strong>BHLL</strong>: 1 for BHLL-respodndents, 0 for background population. (Unfortunately it is not possible to identify those invited to the questionnaire, who didn’t respond).</p></li>
+<li><p>Relevant variables from <strong>BEF</strong>-dataset.</p></li>
+<li><p>Information on mortality until end of 2022.</p></li>
+<li><p>Information on whether 1yr of follow up in Danish registries is available (had been in DK for at least a year prior to int_dato)</p></li>
+</ul>
 </section>
 
 </main>

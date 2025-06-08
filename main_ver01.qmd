@@ -22,17 +22,17 @@ Below you can find some background information on the cohort that can be relevan
 
 2.  List of relevant variables that have been calculated or cleaned up before and are therefore might be relevant to reuse in future studies:
 
-    a.  SEP-variables (Cathrine and Morten) –\> (April 2025: Morten and Cathrine are working on a set of recommended, well defined and easy accessible SEP-variables that can easily be included in your study)
+    a.  About [dataset with background population of all Danes 50–65-year-old](background_population.html), to access the representativeness of the BHLL-respondents (Morten)
 
-    b.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
+    b.  SEP-variables (Cathrine and Morten) –\> (April 2025: Morten and Cathrine are working on a set of recommended, well defined and easy accessible SEP-variables that can easily be included in your study)
 
-    c.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
+    c.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
 
-    d.  A crude cancer staging for main cancer types (Julie, Emma, Caroline) –\> (Apr2025: We are working on a crude staging of cancer for 21 differnte cancer types based on TNM-codes. The plan is to supply. The algorithm is originally develop by Erzebeth/Emese and will now be updated by Julie, Emma and Morten. Output: (A) a datastep with cancer-stages for cancer prior to index date. (B) An algorithm to identify cancer-stage for cancer after index-date. (C) Maybe a SAS-template that can be reused in other projects?)
+    d.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
 
-    e.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
+    e.  A crude cancer staging for main cancer types (Julie, Emma, Caroline) –\> (Apr2025: We are working on a crude staging of cancer for 21 differnte cancer types based on TNM-codes. The plan is to supply. The algorithm is originally develop by Erzebeth/Emese and will now be updated by Julie, Emma and Morten. Output: (A) a datastep with cancer-stages for cancer prior to index date. (B) An algorithm to identify cancer-stage for cancer after index-date. (C) Maybe a SAS-template that can be reused in other projects?)
 
-    f.  [About dataset with background population of all Danes 50–65-year-old](background_population.html), to access generalizability of respondents (Morten)
+    f.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
 
     g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
 
