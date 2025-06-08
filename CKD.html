@@ -72,47 +72,64 @@ ul.task-list li input[type="checkbox"] {
 <section id="ckd" class="level2">
 <h2 class="anchored" data-anchor-id="ckd">CKD</h2>
 <p>CKD is identified through lab-measures that are taken at outpatient visits and GP-visits. So not during inpatient stay and not during emergency room visits.</p>
-<p>This algorithm has been developed by the Kidney-group (Uffe, Christian, Simon, Anne,…) and implemented for the BHLL-data by Morten in May 2025.<br>
-</p>
+<p>This algorithm has been developed by Søren Viborg, Uffe, Christian and others. See also: <a href="https://pubmed.ncbi.nlm.nih.gov/33707181/" class="uri">https://pubmed.ncbi.nlm.nih.gov/33707181/</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/36444292/" class="uri">https://pubmed.ncbi.nlm.nih.gov/36444292/</a> . The algortihm has been implemented for the BHLL-data by Morten in May 2025.</p>
+<p>We use two different approaches for identifying CKD:</p>
+<ul>
+<li><p>Based on eGFR alone.</p></li>
+<li><p>Based on both eGFR and uACR (CKD is assumed if the measurements for either eGFR or for uACR indicate CKD).</p></li>
+</ul>
 <section id="identifying-inpatient-and-emergency-room-visits" class="level3">
 <h3 class="anchored" data-anchor-id="identifying-inpatient-and-emergency-room-visits">Identifying inpatient and emergency room visits:</h3>
 <p>LPR2: All hospital contacts with either C_indm=1 or c_pattype in (‘0’,‘3’)</p>
-<p>LPR3 - Acute admissions: Are identified by …</p>
+<p>LPR3 - Acute admissions: Are identified by: <em>prioriet=‘ATA1’</em></p>
 <p>LPR3 - inpatient visits: When two hospital contacts are less than three hours apart (from end of contact one, to start of contact two), these are counted as the same contact. If the duration of such (potentially combined) contact is more than 12 hours, we define it as an inpatient visit.</p>
 </section>
 <section id="selection-of-lab-measurements" class="level3">
 <h3 class="anchored" data-anchor-id="selection-of-lab-measurements">Selection of lab-measurements:</h3>
 <p>All lab-measurements taken on a calendar date involved in one of the inpatient visits and acute admissions are disregarded.</p>
 <p>Lab-measurements in the period from 5 years prior to the index date until index date are selected.</p>
-<p>Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NPU18016} (We don’t find any measurements for neither NPU01807 nor NPU17559) (<em>NPU09101 was requested, but is not available in this project. But Uffe doesn’t find any of these in his study at SDS)</em> (And we include the very few <em>measurements of NPU18105 (0.01%). This is not standard in other CKD studies, but has been included in other BHLL-studies)</em></p>
-<p>eGFR is calculated … (based on gender and age at time of measurement).</p>
+<section id="egfr" class="level4">
+<h4 class="anchored" data-anchor-id="egfr">eGFR:</h4>
+<p>Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NPU18016, NPU18105} (We don’t find any measurements for neither NPU01807 nor NPU17559) (<em>NPU09101 was requested, but is not available in this project. But Uffe doesn’t find any of these in his study at SDS)</em> (For now I have include the very few <em>measurements of NPU18105 (0.01%). This is not standard in other CKD studies, but has been included in other BHLL-studies)</em></p>
+<p>eGFR is calculated based on the CKD-EPI09 formula(based on gender and age at time of measurement). (See )<a href="https://pubmed.ncbi.nlm.nih.gov/38046001/" class="uri">https://pubmed.ncbi.nlm.nih.gov/38046001/</a> )</p>
 <p>CKD is defined as (at least) two eGFR measuerments (whitin this 5 yr period) &lt;60 ml/min/1.73m<sup>2</sup> separated by at least 90 days (disregarding other measurements in between)</p>
-<p>CKD-grades: As above, except the chosen level:</p>
+<p>CKD-stages: As above, except the chosen level:</p>
 <ul>
-<li>CKD grade 5: Two measurements &lt;15 ml/min/1.73m<sup>2</sup></li>
-<li>CKD grade 4: Two measurements &lt;30 ml/min/1.73m<sup>2</sup> and not of grade 5</li>
-<li>CKD grade 3b: Two measurements &lt;45 ml/min/1.73m<sup>2</sup> and not of grade 4 or 5</li>
-<li>CKD grade 3a: Two measurements &lt;60 ml/min/1.73m<sup>2</sup> and not of grade 3b, 4 or 5</li>
+<li>CKD stage 5G: Two measurements &lt;15 ml/min/1.73m<sup>2</sup></li>
+<li>CKD stage G4: Two measurements &lt;30 ml/min/1.73m<sup>2</sup> and not of grade 5</li>
+<li>CKD stage G3b: Two measurements &lt;45 ml/min/1.73m<sup>2</sup> and not of grade 4 or 5</li>
+<li>CKD stage G3a: Two measurements &lt;60 ml/min/1.73m<sup>2</sup> and not of grade 3b, 4 or 5</li>
 </ul>
+<p>In case of no (or just one) creatinine measurement we categorize the respondent as no-CKD.</p>
+</section>
+<section id="uacr" class="level4">
+<h4 class="anchored" data-anchor-id="uacr">uACR:</h4>
 <p>uACR (urine albumin-creatinine ratio) - NPUcodes (proportion): NPU03918 (0%), NPU19661 (99%), NPU28842 (1%).</p>
 <p>NPU28842 is measured in g/mol. The conversion factor to mg/g is 8.84 (mg/g)/(g/mol).</p>
 <p>Non-numeric values: If measurements for NPU19661 (~2%) are noted as &lt;x (x typicaly beneath 30, but a few above as well) they are ignored. A few measurements (approx. 30) are noted as &gt;y (where y is a high number larger than 800). These are kept.</p>
-<p>uACR identified på two codes&gt;=30 mg/g, separated by at least 90 days.</p>
+<p>uACR identified by two codes&gt;=30 mg/g, separated by at least 90 days (disregarding other measurements in between).</p>
+<p>(Staging based on uACR has not been implemeted).</p>
+</section>
 </section>
 <section id="dataset" class="level3">
 <h3 class="anchored" data-anchor-id="dataset">Dataset:</h3>
-<p>The dataset includes the following variables</p>
-<ul>
-<li>pnr</li>
-<li>int_dato (artificial int_dato for background population)</li>
-<li>CKD as binary variable</li>
-<li>CKD-grade {0, 3a, 3b, 4, 5}</li>
-<li>uACR (binary)</li>
-<li>CKD_or_uACR (binary)</li>
-</ul>
-<p>The dataset is located as DK5065_ckd (a dated version is also available). At</p>
+<p>The algorithm has been run on the full population aged 50-65, (including the the BHLL-cohort). The dataset is named <strong>DK5065_ckd</strong> (a dated version is also available). At:</p>
 <p>E:\ProjektDB\KEA\Workdata\708194\Morten Madsen\survey50+\CKD_Anne\WorkCKD\</p>
-<p>Morten Madsen 27/5-2025</p>
+<p>The SAS programs for preparing the the dataset are:</p>
+<ul>
+<li><p>E:\ProjektDB\KEA\Workdata\708194\Morten Madsen\survey50+\CKD_Anne\04 inpat_acute.sas</p></li>
+<li><p>E:\ProjektDB\KEA\Workdata\708194\Morten Madsen\survey50+\CKD_Anne\05_CKD_lab.sas</p></li>
+</ul>
+<p>The <strong>DK5065_ckd</strong> SAS-dataset includes the following variables:</p>
+<ul>
+<li><strong>pnr</strong></li>
+<li><strong>int_dato</strong> (interview-date for reposndents, and an artificial int_dato for background population, See further documentation in the documentation for the background population)</li>
+<li><strong>CKD</strong> as binary variable (CKD identified solely by eGFR)</li>
+<li><strong>CKD_grade</strong> {0, 3a, 3b, 4, 5} (based solely on eGFR)</li>
+<li><strong>uACR</strong> (binary) CKD identified solely by uACR</li>
+<li><strong>CKD_or_uACR</strong> (binary) found as max(CKD, uACR)</li>
+</ul>
+<p>Morten Madsen 8/6 - 2025</p>
 </section>
 </section>
 
