@@ -11,3 +11,5 @@ The Questions regarding physical activity has been designed...
 IPAQ: We have used the short form in BHLL, and apparently without sitting.
 
 Craig CL, Marshall AL, Sjöström M  et al.  International physical activity questionnaire: 12-country reliability and validity. Med Sci Sports Exerc  2003;35:1381–95.
+
+*Return to [main BHLL-overview](main_ver01.html)*

@@ -33,7 +33,7 @@ Lab-measurements in the period from 5 years prior to the index date until index 
 
 #### eGFR:
 
-Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NPU18016, NPU18105} (We don't find any measurements for neither NPU01807 nor NPU17559) (*NPU09101 was requested, but is not available in this project. But Uffe doesn't find any of these in his study at SDS)* (For now I have include the very few *measurements of NPU18105 (0.01%). This is not standard in other CKD studies, but has been included in other BHLL-studies)*
+Creatinine measurements are identified based on the NPU codes: {NPU01807, NPU04998, NPU17559, NPU18016} (We don't find any measurements for neither NPU01807 nor NPU17559) (*NPU09101 was requested, but is not available in this project. But Uffe doesn't find any of these in his study at SDS)* *(The code NPU18105 (only 0.01% of the measurements) has not been included, as it is usually not included in CKD_studies. It has been included in a few other BHLL-studies though).*
 
 eGFR is calculated based on the CKD-EPI09 formula(based on gender and age at time of measurement). (See )<https://pubmed.ncbi.nlm.nih.gov/38046001/> )
 
@@ -81,4 +81,6 @@ The **DK5065_ckd** SAS-dataset includes the following variables:
 -   **uACR** (binary) CKD identified solely by uACR
 -   **CKD_or_uACR** (binary) found as max(CKD, uACR)
 
-Morten Madsen 8/6 - 2025
+Morten Madsen 10/6 - 2025
+
+*Return to [main BHLL-overview](main_ver01.html)*

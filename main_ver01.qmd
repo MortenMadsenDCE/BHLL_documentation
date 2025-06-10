@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-## (A very first version of) Background info and tools for researchers doing studies on the BHLL-cohort.
+## (A first version of) Background info and tools for researchers doing studies on the BHLL-cohort.
 
 ## Background:
 
@@ -38,7 +38,7 @@ Below you can find some background information on the cohort that can be relevan
 
     h.  [Help to interpret answers to the physical activity questions](https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf "https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf").
 
-    i.  Some diseases are complicated to identify well using registries. Find here description of algorithm and path for a dataset with the values: [CKD](CKD), (diabetes?).
+    i.  Some diseases are complicated to identify well using registries. Find here description of algorithm and path for a dataset with the values: [CKD](CKD.html), (diabetes?).
 
     j.  Interpreting [physical activity](Physical_activity.html)
 

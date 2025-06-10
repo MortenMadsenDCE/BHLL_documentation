@@ -15,7 +15,7 @@ You can find the background population both named *stor_pop* (big population) an
 
 The aim of the representatives study is to develop weights for the BHLL-cohort to make it more comparable with the background population, and to access this by comparing mortality in BHLL with mortality in background population.
 
-The background population cohort (DK50_65) is selected on similar criteria as BHLL-cohort:
+The background population cohort (DK5065) is selected on similar criteria as BHLL-cohort:
 
 -   50-65 years September 1st 2021.
 
@@ -51,10 +51,12 @@ Variables include:
 
 -   **int_dato** (interview-date - for the BHLL cohort the actual date, for background population an artificial date with the same distribution during autumn 2021).
 
--   **BHLL**: 1 for BHLL-respodndents, 0 for background population. (Unfortunately it is not possible to identify those invited to the questionnaire, who didn't respond).
+-   **BHLL**: 1 for BHLL-respondents, 0 for background population (who are not respondents). (Unfortunately it is not possible to identify those invited to the questionnaire, who didn't respond).
 
 -   Relevant variables from **BEF**-dataset.
 
 -   Information on mortality until end of 2022.
 
 -   Information on whether 1yr of follow up in Danish registries is available (had been in DK for at least a year prior to int_dato)
+
+*Return to [main BHLL-overview](main_ver01.html)*

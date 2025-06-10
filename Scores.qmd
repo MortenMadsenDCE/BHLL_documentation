@@ -21,8 +21,7 @@ MCS and PCS has been officially scored from the SF-12 questions using software f
 
 The full section on the scores in the cohort profile paper says:
 
-"Some topics were addressed using previously validated questionnaires ([[Supplementary Table 1]{.underline}](https://www.dovepress.com/get_supplementary_file.php?f=436617.pdf)). For example, self-assessed health was evaluated using the 12-item
-short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156). We used the Major Depression Inventory^[28](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0028)^ and the Perceived Stress Scale^[29](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0029)^ to measure depression and stress, respectively."
+"Some topics were addressed using previously validated questionnaires ([[Supplementary Table 1]{.underline}](https://www.dovepress.com/get_supplementary_file.php?f=436617.pdf)). For example, self-assessed health was evaluated using the 12-item short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156). We used the Major Depression Inventory^[28](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0028)^ and the Perceived Stress Scale^[29](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0029)^ to measure depression and stress, respectively."
 
 [28.](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#ref-cit0028) Bech P, Rasmussen NA, Olsen LR, Noerholm V, Abildgaard W. The sensitivity and specificity of the **major depression inventory**, using the present state examination as the index of diagnostic validity. *J Affect Disord*. 2001;66(2–3):159–164. doi:10.1016/S0165-0327(00)00309-8
 
@@ -32,6 +31,8 @@ Regarding Danish translations see: <https://www.dovepress.com/article/supplement
 
 Another reference for MDI:
 
-1.   Bech P, Timmerby N, Martiny K, et al. Psychometric evaluation of the **Major Depression Inventory (MDI)** as depression severity scale using the LEAD (Longitudinal Expert Assessment of All Data) as index of validity. BMC Psychiatry 2015;15:190.
+1.  Bech P, Timmerby N, Martiny K, et al. Psychometric evaluation of the **Major Depression Inventory (MDI)** as depression severity scale using the LEAD (Longitudinal Expert Assessment of All Data) as index of validity. BMC Psychiatry 2015;15:190.
 
 Edited: Morten Madsen 27/5-2025
+
+*Return to [main BHLL-overview](main_ver01.html)*
