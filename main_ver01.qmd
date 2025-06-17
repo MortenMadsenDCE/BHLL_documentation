@@ -25,7 +25,7 @@ Content:
 
     a.  About [dataset with background population of all Danes 50–65-year-old](background_population.html), to access the representativeness of the BHLL-respondents (Morten)
 
-    b.  A dataset with major recommended SEP-variables, so they can easily be included in your study. The dataset has been prepared by Morten and Cathrine June 2025. Find [further description and documentation here](SEP on BHLL-population_ver4_17jun2025_web.htm).
+    b.  A dataset with major recommended SEP-variables, so they can easily be included in your study. The dataset has been prepared by Morten and Cathrine June 2025. Find [further description and documentation can be downloaded here](SEP%20on%20BHLL-population_ver4_17jun2025.docx).
 
     c.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
 
