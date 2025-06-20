@@ -31,7 +31,7 @@ Content:
 
     d.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
 
-    e.  Julie and Morten have June 2025 made a crude cancer staging for 21 main cancer types primarily based on TNM-codes from the cancer registry. Download [a brief documentation](Cancer_TNM_algorithm ver2 20jun25.docx) including paths to SAS program using the algorithm, and a SAS-dataset with stages for prevalent cancers among BHLL-respondents.
+    e.  A crude [Cancer-staging](Cancer_Stage) for 21 main cancer types by Julie and Morten June 2025
 
     f.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
 

@@ -1,0 +1,14 @@
+---
+title: "Cancer-staging"
+author: "Morten"
+format: html
+editor: visual
+---
+
+## Cancer staging algorithm
+
+Julie and Morten have June 2025 made a crude cancer staging for 21 main cancer types primarily based on TNM-codes from the cancer registry. Download [a brief documentation](Cancer_TNM_algorithm ver2 20jun25.docx) including paths to SAS program using the algorithm, and a SAS-dataset with stages for prevalent cancers among BHLL-respondents.
+
+Morten Madsen 20/6 - 2025
+
+*Return to [main BHLL-overview](main_ver01.html)*
