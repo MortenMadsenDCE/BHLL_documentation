@@ -6,10 +6,14 @@ editor: visual
 
 ## Physical Activity
 
-The Questions regarding physical activity has been designed...
+Physical activity is covered by both Q108 & Q109 (moderate/intense physical activity) and Q110 & Q111 (walking \~ light physical acitivty).
+
+The Questions regarding physical activity has been designed based on:
 
 IPAQ: We have used the short form in BHLL, and apparently without sitting.
 
 Craig CL, Marshall AL, Sjöström M  et al.  International physical activity questionnaire: 12-country reliability and validity. Med Sci Sports Exerc  2003;35:1381–95.
+
+"Scoring the International Physical Activity Questionnaire (IPAQ)": [Help to interpret answers to the physical activity questions](https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf "https://ugc.futurelearn.com/uploads/files/bc/c5/bcc53b14-ec1e-4d90-88e3-1568682f32ae/IPAQ_PDF.pdf").
 
 *Return to [main BHLL-overview](main_ver01.html)*
