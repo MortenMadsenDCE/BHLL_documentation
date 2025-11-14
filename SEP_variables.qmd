@@ -1,0 +1,16 @@
+---
+title: "SEP-variables"
+author: "Morten Madsen"
+format: html
+editor: visual
+---
+
+## SEP variables for BHLL
+
+A dataset with major recommended variables on socioeconomic position (SEP), so these can easily be included in your study. The dataset has been prepared by Morten and Cathrine June 2025.
+
+Most recent version is:  [Short description and documentation of SEP-variables within BHLL](SEP%20on%20BHLL-population_ver6_14nov2025.docx). Now including reference to the newly published SEPLINE <https://pubmed.ncbi.nlm.nih.gov/40641826/>.
+
+Old versions: [Version 18jun2025](SEP%20on%20BHLL-population_ver5_18jun2025.docx).
+
+*Return to [main BHLL-overview](main_ver01.html)*
