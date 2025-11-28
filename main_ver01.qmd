@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-## (A first version of) Background info and tools for researchers doing studies on the BHLL-cohort.
+## Background info and tools for researchers doing studies on the BHLL-cohort.
 
 ## Background:
 
@@ -19,44 +19,48 @@ Of the original 301,244 individuals who were invited to participate, 114,555 res
 Below you can find some background information on the cohort that can be relevant when you plan your Statistical Analysis Plan (SAP) for a study on the BHLL-cohort, or if you as a statistician are going to work on the data. This includes variables etc. that have been cleaned up in previous studies and might be relevant to reuse.\
 Content:
 
-1.  Download: [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
+## 1. Defining study population for your study
 
-2.  List of relevant variables that have been calculated or cleaned up before and are therefore might be relevant to reuse in future studies:
+Download: [Help for defining study population](Defining%20studypopulation%20BHLL%20questionaire%20version1.docx "Defining studypopulation BHLL questionaire version1")
 
-    a.  About [dataset with background population of all Danes 50–65-year-old](background_population.html), to access the representativeness of the BHLL-respondents (Morten)
+## 2. List of relevant variables etc. that have been prepared or cleaned up before and are therefore might be relevant to reuse in future studies:
 
-    b.  A dataset with major recommended variabes on socioeconomic position (SEP) as well as a a documentation has been prepared by Morten and Cathrine June 2025. Find [Data on SEP in BHLL](SEP_variables.html)
+a.  About [dataset with background population of all Danes 50–65-year-old](background_population.html), to access the representativeness of the BHLL-respondents (Morten)
 
-    c.  Dietary score (Julie) –\>(Spring2025: Julie and Morten has been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
+b.  A dataset with major recommended variabes on socioeconomic position (SEP) as well as a a documentation has been prepared by Morten and Cathrine June 2025. Find [Data on SEP in BHLL](SEP_variables.html)
 
-    d.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
+c.  Dietary score (Julie) –\>(Spring2025: Julie and Morten have been working on implementing [a dietary score for nutrition among cancer patients](Dietary_Score.html).). (Julie, Rikke and Anne Sofie are considering making a score based on the danish guidelines, but the project is on hold right now.)
 
-    e.  A crude [Cancer-staging](Cancer_stage.html) for 21 main cancer types by Julie and Morten June 2025
+d.  Stress, depression, self-perceived health (PSS, MDI, MCS, PCS). Remember to give an official reference when using MCS or PCS. [Path to dataset and further documentation.](Scores.html)
 
-    f.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
+e.  A crude [Cancer-staging](Cancer_stage.html) for 21 main cancer types by Julie and Morten June 2025
 
-    g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
+f.  BMI (Frederik) –\> (2024: We did a little data-cleansing of hight- and weight-data for Frederiks project on BMI and self-reported-health)
 
-    h.  Some diseases are complicated to identify well using registries. Find here description of algorithm and path for a dataset with the values: [CKD](CKD.html), (diabetes?).
+g.  Overview of missingness of each question–\> (Apr 2025: It is planned to make a list of all BHLL variable names, labels and missingness.)
 
-    i.  Interpreting [physical activity](Physical_activity.html)
+h.  Some diseases are complicated to identify well using registries. Find here description of algorithm and path for a dataset with the values: [CKD](CKD.html), (diabetes?).
 
-3.  Follow up time: At the moment (November 2025) we have FU (mortality, hospital contacts and medication use) until end of 2024 at the DST-projects(709876) with our BHLL-data.
+i.  Interpreting [physical activity](Physical_activity.html)
 
-4.  Published papers:
+## 3. Available Follow up time:
 
-    a.  Sørensen HT et al. [Cohort Profile: Better Health in Late Life](https://doi.org/10.2147/CLEP.S436617)
+At the moment (November 2025) we have FU (mortality, hospital contacts and medication use) until end of 2024 at the DST-projects(709876) with our BHLL-data.
 
-    b.  Viuff JH et al. [Self-rated health in venous thromboembolism survivors: a prevalence study](https://doi.org/10.1016/j.jtha.2025.04.027)
+## 4. Published papers on the BHLL cohort:
 
-    c.  Kristensen FPB et al. [Obesity and self-rated health in middle-aged Danes](https://doi.org/10.1038/s41366-025-01963-7)
+a.  Sørensen HT et al. [Cohort Profile: Better Health in Late Life](https://doi.org/10.2147/CLEP.S436617)
 
-    d.  …?
+b.  Viuff JH et al. [Self-rated health in venous thromboembolism survivors: a prevalence study](https://doi.org/10.1016/j.jtha.2025.04.027)
 
-5.  Background info
+c.  Kristensen FPB et al. [Obesity and self-rated health in middle-aged Danes](https://doi.org/10.1038/s41366-025-01963-7)
 
-    a.  Download wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
-    b.  Download metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
+d.  …
+
+## 5. Background info
+
+a.  Download wording of questions in questionnaire (in Danish) –\> `<a href="`{=html}2021-09-27 Bedre sundhed \_ questions.docx`">`{=html}Wording of questions (in Danish)</a>
+b.  Download metodenotat om udvælgelse af populationen (in Danish) –\> `<a href="`{=html}2022-02-08 Metodenotat_Bedre sundhed 50.pdf`">`{=html}Methods in selection of population (in Danish)</a>
 
 Be aware that most of these documents are work in progress…
 
