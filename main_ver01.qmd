@@ -47,7 +47,7 @@ i.  Interpreting [physical activity](Physical_activity.html)
 
 At the moment (November 2025) we have FU (mortality, hospital contacts and medication use) until end of 2024 at the DST-projects(709876) with our BHLL-data.
 
-## 4. Published papers on the BHLL cohort:
+## 4. Published papers on the BHLL cohort: {#Published papers}
 
 a.  Sørensen HT et al. [Cohort Profile: Better Health in Late Life](https://doi.org/10.2147/CLEP.S436617)
 
