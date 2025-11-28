@@ -41,15 +41,17 @@ Content:
 
     i.  Interpreting [physical activity](Physical_activity.html)
 
-3.  Follow up: At the moment (April 2025) we have FU (mortality, hospital visists, medication use) until the end of 2022 at the DST-projects(708194 / 709876) with our BHLL-data. We hope to get access to FU until end of 2023 within a few months (?)
+3.  Follow up time: At the moment (November 2025) we have FU (mortality, hospital contacts and medication use) until end of 2024 at the DST-projects(709876) with our BHLL-data.
 
 4.  Published papers:
 
-    a.  Cohort Profile: Better Health in Late Life–\> <https://doi.org/10.2147/CLEP.S436617>
+    a.  Sørensen HT et al. [Cohort Profile: Better Health in Late Life](https://doi.org/10.2147/CLEP.S436617)
 
-    b.  Self-rated health in venous thromboembolism survivors: a prevalence study –\> <https://doi.org/10.1016/j.jtha.2025.04.027>
- 
-    c. …?
+    b.  Viuff JH et al. [Self-rated health in venous thromboembolism survivors: a prevalence study](https://doi.org/10.1016/j.jtha.2025.04.027)
+
+    c.  Kristensen FPB et al. [Obesity and self-rated health in middle-aged Danes](https://doi.org/10.1038/s41366-025-01963-7)
+
+    d.  …?
 
 5.  Background info
 
