@@ -1,0 +1,59 @@
+---
+title: "LPR1994_2024_dk5065"
+format: html
+editor: visual
+---
+
+## BHLL Pre-filtered extraction dataset for LPR: LPR1994_2024_dk5065
+
+It contains a summary of LPR-admissions and diagnoses given in the period 1994 – 2024 restricted to all 50-65 years old in fall 2021 (including the BHLL population).
+
+It is my hope that these temporary data can be used for identifying covariates for many BHLL-studies. Though they can’t cover very specific requests, so for instance for identifying the main exposure you might need to start from the original LPR-files.
+
+The data is both based on LPR2 and LPR3 data. Some adjustments were made to make it possible to aggregate them into one dataset.
+
+## LPR2 and LPR3:
+
+From LPR_a_kontakt2024
+
+-   LPRindberetningssystem=’LPR3’
+
+-   Restricted to kont_type in (‘ALCA00’,’ALCA01’): \[Meaning “fysisk fremmøde” (83%) og ”udekontakt ”(1% - included many psyciatric registrations).\]
+
+-   Variables renamed:
+
+    -   Diag_code -\> c_diag
+
+    -   Adiag -\> c_adiag
+
+    -   Diag_kode_type -\> c_diagtype
+
+-   C_pattype created from sgh_oph_type:
+
+    -   ”Ambulant ophold” -\> c_pattype=2
+
+    -   ”indlæggelse” -\> c_pattype =0
+
+    -   For kont_Type=’ALCA01’ I create an artificial c_pattype=4 (’Udekontakt’)
+
+-   C_indm is created based on prioritet
+
+    -   ATA1 -\> c_indm=1
+
+    -   ATA3-\> c_indm=2               \[corrected d. 17/2-2026 – prior they were missing\]
+
+LPR2:
+
+-   Based on: Admdiagbes_nnnn from the years 1994-2019 and Lprsypadmdiag2019 (psychiatric admissions)
+
+    -   Tillægsdiagnoser are left out
+
+    -   A very few records with diagnosetype ’C’ og ’G’ are recoded to diagnosetype=’B’
+
+From the outpatient admissions, only one record is kept (so no records for the individual visits and the variable d_ambdto is not in the dataset).
+
+Morten Madsen 17/2 - 2026
+
+*Return to [Page with extraction-datasets](extraction_datasets.html)*
+
+*Return to [main BHLL-overview](main_ver01.html)*
