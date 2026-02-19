@@ -44,7 +44,7 @@ From LPR_a_kontakt2024
 
 LPR2:
 
--   Based on: Admdiagbes_nnnn from the years 1994-2019 and Lprsypadmdiag2019 (psychiatric admissions)
+-   Based on: Admdiagbes_nnnn from the years 1994 to 2019 and Lprsypadmdiag2019 (psychiatric admissions)
 
     -   Tillægsdiagnoser are left out
 
@@ -54,6 +54,6 @@ From the outpatient admissions, only one record is kept (so no records for the i
 
 Morten Madsen 17/2 - 2026
 
-*Return to [Page with extraction-datasets](extraction_datasets.html)*
+*Return to [Overveiw of extraction-datasets](extraction_datasets.html)*
 
 *Return to [main BHLL-overview](main_ver01.html)*

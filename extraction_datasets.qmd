@@ -16,13 +16,13 @@ As a help for programmers working on BHLL-cohort, you can find some Pre‑Filter
 
 There will be situations where the Pre‑Filtered Extraction Datasets won't cover what is needed, but hopefully they can be an easy goto-source in many studies (and at the same time standardize the approach, when no special demands are relevant).
 
-You can find the datasets in "E:\\...709876\\BHLL\\Studybase_prep\\BHLLprep_data". Often the libname BHLLdata is pointing at that library.
+You can find the datasets in "E:\\...709876\\BHLL\\Studybase_prep\\BHLLprep_data". Often the libname *BHLLdata* is pointing at that library.
 
 ## The datasets:
 
 -   lmdb2018_2024_dk5065 (Prescriptions from 2018 - 2024)
 
--   lpr1994_2024_dk5065 (Diagnoses and admissions based on LPR2 and LPR3) More info
+-   lpr1994_2024_dk5065 (Diagnoses and admissions based on LPR2 and LPR3) [More info on LPR-dataset](LPR_extraction_ds.html)
 
 -   lab2yr_05yr_dk5065 (Lab-data for selected biomarkers from 2 years prior to 0.5 year after interview-date)
 
