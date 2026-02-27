@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-# MDI - Major Depression Index. 
+# MDI - Major Depression Index.
 
 ## How the MDI-score and MDI_depression are calculated based on questionnaire data:
 
@@ -70,7 +70,9 @@ The questions (table1):
 
 10a) Have you suffered from reduced appetite?
 
-10b) Have you suffered from increased appetite? \[NB! Question 10B is not available in the BHLL-questionnaire\]
+10b) Have you suffered from increased appetite?
+
+\[Variable names in dataset: Q14_1 - Q14_14\]
 
 ### C) Handling of missing data
 
