@@ -9,19 +9,35 @@ editor: visual
 
 One dataset with the four scores MCS, PCS, PSS and MDI for the BHLL-respondents can be found as:
 
-E:\\ProjektDB\\KEA\\Workdata\\708194\\BHLL\\Studybase_prep\\BHLLprep_data\\scores.sasb7dat
+E:\\ProjektDB\\KEA\\Workdata\\709876\\BHLL\\Studybase_prep\\BHLLprep_data\\scores.sasb7dat
 
 And it is created by the program:
 
-E:\\ProjektDB\\KEA\\Workdata\\708194\\Studybase_prep\\02 BHLL scores - MCS PCS PSS MDI.sas
+E:\\ProjektDB\\KEA\\Workdata\\709876\\Studybase_prep\\002 BHLL scores - MCS PCS PSS MDI ver2.sas
 
 ## About the scores:
+
+### MCS and PCS:
 
 MCS and PCS has been officially scored from the SF-12 questions using software from Quality Metrics. And we have payed to be able to use questions and scores. (Cecilia was the KEA representatitve who made the agreement with Quality Metrics). If the SF-12 questions or MCS/PCS scores are used we should reference in the paper. In the cohort profile paper it is done by the following line: "Self-assessed health was evaluated using the 12-item short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156)"
 
 The full section on the scores in the cohort profile paper says:
 
-"Some topics were addressed using previously validated questionnaires ([[Supplementary Table 1]{.underline}](https://www.dovepress.com/get_supplementary_file.php?f=436617.pdf)). For example, self-assessed health was evaluated using the 12-item short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156). We used the Major Depression Inventory^[28](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0028)^ and the Perceived Stress Scale^[29](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0029)^ to measure depression and stress, respectively."
+"Some topics were addressed using previously validated questionnaires ([[Supplementary Table 1]{.underline}](https://www.dovepress.com/get_supplementary_file.php?f=436617.pdf)). For example, self-assessed health was evaluated using the 12-item short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156)."
+
+### Major Depression Inventory (MDI):
+
+MDI is represented by two different variables (can be used in two different ways:
+
+1.  The sum of the 10 questions can be summed up to a total score (theoretically ranging from 0-50). Varname: *MDI_score* \[what about missingness here???\]
+
+2.  Evaluating the answers like the ICD-10 diagnostic criterion: Stored in the variable *MDI_depression*
+
+Find [a more thorough description of the algorithm (especially for MDI_depression) here](MDI.html)
+
+### Perceived Stress Scale (PSS):
+
+"We used the Major Depression Inventory^[28](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0028)^ and the Perceived Stress Scale^[29](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0029)^ to measure depression and stress, respectively."
 
 [28.](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#ref-cit0028) Bech P, Rasmussen NA, Olsen LR, Noerholm V, Abildgaard W. The sensitivity and specificity of the **major depression inventory**, using the present state examination as the index of diagnostic validity. *J Affect Disord*. 2001;66(2–3):159–164. doi:10.1016/S0165-0327(00)00309-8
 
@@ -33,6 +49,6 @@ Another reference for MDI:
 
 1.  Bech P, Timmerby N, Martiny K, et al. Psychometric evaluation of the **Major Depression Inventory (MDI)** as depression severity scale using the LEAD (Longitudinal Expert Assessment of All Data) as index of validity. BMC Psychiatry 2015;15:190.
 
-Edited: Morten Madsen 27/5-2025
+Edited: Morten Madsen 27/5-2025 and 27/2-2026
 
 *Return to [main BHLL-overview](main_ver01.html)*

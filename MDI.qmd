@@ -1,0 +1,87 @@
+---
+title: "MDI"
+format: html
+editor: visual
+---
+
+# MDI - Major Depression Index. 
+
+## How the MDI-score and MDI_depression are calculated based on questionnaire data:
+
+Suggested (and prepared) use of MDI-score and MDI_depression based on MDI-questions:
+
+1.  The sum of the 10 questions can be summed up to a total score (theoretically ranging from 0-50). Varname: *MDI_score* \[what about missingness here???\]
+
+2.  Evaluating the answers like the ICD-10 diagnostic criterion: Stored in the variable *MDI_depression*
+
+When evaluating the *MDI_depression variable,* we will follow the procedures as suggested in the following two papers:
+
+Weye N, McGrath JJ, Lasgaard M, et al. Agreement between survey- and registerbased measures of depression in Denmark. *Acta Psychiatr Scand*. 2023; 147(6): 581-592. doi:[10.1111/acps.13555](https://doi.org/10.1111/acps.13555 "Link to external resource: 10.1111/acps.13555")\
+
+P. Bech, N.-A. Rasmussen, L.Raabæk Olsen, V. Noerholm, W. Abildgaard, The sensitivity and specificity of the Major Depression Inventory, using the Present State Examination as the index of diagnostic validity, Journal of Affective Disorders, Volume 66, Issues 2–3, 2001, Pages 159-164, ISSN 0165-0327, https://doi.org/10.1016/S0165-0327(00)00309-8.(https://www.sciencedirect.com/science/article/pii/S0165032700003098)
+
+The calculation of MDI_depression can be thought of having the following steps:
+
+A. Overall
+
+B. Specifying which answers counts as positive
+
+C. Handling of missing data
+
+### A) Overall:
+
+*From Weye et.al. (***Agreement between survey- and register-based measures of depression in Denmark** *DOI: [10.1111/acps.13555](https://doi.org/10.1111/acps.13555)):*
+
+**“2.1.1 Survey-based measure of depression**
+
+The 2017 Central Denmark Region *How are you?* survey included the Major Depression Inventory (MDI). The MDI is a widely used self-rating scale for depression, and has been shown to have high sensitivity and specificity, compared with the Schedule for Clinical Assessment in Neuropsychiatry.^[24](https://onlinelibrary.wiley.com/doi/10.1111/acps.13555#acps13555-bib-0024)^ The MDI consists of 10 items assessing the frequency of depressive symptoms during the past 2 weeks.^[24](https://onlinelibrary.wiley.com/doi/10.1111/acps.13555#acps13555-bib-0024), [25](https://onlinelibrary.wiley.com/doi/10.1111/acps.13555#acps13555-bib-0025)^ Thus, the MDI represents those with a current episode of MDD \[“major depressive disorder”\]. Three questions reflect the core symptoms of MDD, while the remaining questions reflect associated symptoms. The questions were rated on a six-point scale ranging from “At no time” to “All the time”. Following the International Classification of Diseases, 10th version (ICD-10) diagnostic criteria,^[24](https://onlinelibrary.wiley.com/doi/10.1111/acps.13555#acps13555-bib-0024)^ those with at least two core symptoms and two associated symptoms were considered to screen positive for depression. For the purposes of this manuscript, we will refer to those who score positive on at least two core symptoms and two associated symptoms as “screen positive” for depression, although a clinical diagnosis needs to be confirmed with a diagnostic interview. The MDI can also categorize cases into mild, moderate, or severe depression.”
+
+### B) To evaluate which levels counts as screen-positive:
+
+\(24\) From Bech et .al. **The sensitivity and specificity of the Major Depression Inventory, using the Present State Examination as the index of diagnostic validity** (<https://doi.org/10.1016/S0165-0327(00)00309-8>)
+
+“The MDI contains, in principle, 12 items, as item 8 and item 10 [\[MM1\]](#_msocom_1) each have two subitems, a and b. In total, thus, the MDI contains 12 items. Functionally, though, the MDI has only 10 items as it is only the highest score of either a or b that is counting in items 8 and 10.
+
+The MDI can be used both as a measuring instrument in which the total score is a sufficient statistic and as a diagnostic instrument with algorithms leading to ~~the DSM-IV~~ or ICD-10 categories of major or moderate to severe depression. As a measuring instrument the 10 items are summed up with a theoretical score range from 0 to 50.
+
+As a diagnostic instrument the MDI items are dichotomised to indicate the presence (=1) or absence (=0) of each of the symptoms. According to ~~both DSM-IV and~~ ICD-10 the symptoms being present should have been present nearly every day during the past 2 weeks. In ~~both DSM-IV and~~ ICD-10 the items of depressed mood and lack of interests (items 1 and 2, [Table 1](https://www.sciencedirect.com/science/article/pii/S0165032700003098?via%3Dihub#TBL1)) are considered as the core symptoms of depression. However, in ICD-10 the item of lack of energy (item 3, [Table 1](https://www.sciencedirect.com/science/article/pii/S0165032700003098?via%3Dihub#TBL1)) is also considered as a core symptom of depression. On this background the first three and most inclusive items of MDI are considered present for answer categories from 4 to 5 (i.e., most of the time, all the time). For the remaining items (items 4–10, [Table 1](https://www.sciencedirect.com/science/article/pii/S0165032700003098?via%3Dihub#TBL1)) answer categories from 3–5 (i.e., more than half of the time, most of the time and all the time) are included when scoring the symptoms as being present.”
+
+The questions (table1):
+
+1\) Have you felt low in spirits or sad?
+
+2\) Have you lost interest in your daily activities?
+
+3\) Have you felt lacking in energy and strength?
+
+4\) Have you felt less self-confident?
+
+5\) Have you had a bad conscience or feelings of guilt?
+
+6\) Have you felt that life wasn’t worth living?
+
+7\) Have you had difficulty in concentrating, e.g., when reading the newspaper or watching television?
+
+8a) Have you felt very restless?
+
+8b) Have you felt subdued?
+
+9\) Have you had trouble sleeping at night?
+
+10a) Have you suffered from reduced appetite?
+
+10b) Have you suffered from increased appetite? \[NB! Question 10B is not available in the BHLL-questionnaire\]
+
+### C) Handling of missing data
+
+***From the supplementary material for Weye et al.'s paper:*** https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Facps.13555&file=acps13555-sup-0001-SupInfo.pdf
+
+“Following a previous publication(2), if one core item and up to two additional items of the MDI scale were missing, the mean of the available items within the same category (core or associated symptom) replaced the missing items. If responses to more than one core item or two additional items were missing, the MDI score was regarded as missing.”
+
+\(2\) Bech P. Appendix 4b: Dealing with missing values in the Major Depression Inventory (MDI). In:
+
+Clinical Psychometrics. John Wiley & Sons, Ltd; 2012:153-153. doi:10.1002/9781118511800.app13
+
+*Return to [Scores overview](scores.html)*
+
+*Return to [main BHLL-overview](main_ver01.html)*
