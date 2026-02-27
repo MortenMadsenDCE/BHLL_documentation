@@ -37,17 +37,25 @@ Find [a more thorough description of the algorithm (especially for MDI_depressio
 
 ### Perceived Stress Scale (PSS):
 
-"We used the Major Depression Inventory^[28](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0028)^ and the Perceived Stress Scale^[29](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#cit0029)^ to measure depression and stress, respectively."
-
-[28.](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#ref-cit0028) Bech P, Rasmussen NA, Olsen LR, Noerholm V, Abildgaard W. The sensitivity and specificity of the **major depression inventory**, using the present state examination as the index of diagnostic validity. *J Affect Disord*. 2001;66(2–3):159–164. doi:10.1016/S0165-0327(00)00309-8
+PSS was calculated as a sum of the score of the individual questions.
 
 [29.](https://www.dovepress.com/cohort-profile-better-health-in-late-life-peer-reviewed-fulltext-article-CLEP#ref-cit0029) Cohen S, Kamarck T, Mermelstein R. A global measure of **perceived stress**. *J Health Soc Behav*. 1983;24(4):385–396. doi:10.2307/2136404
 
-Regarding Danish translations see: <https://www.dovepress.com/article/supplementary_file/436617/436617.pdf>
+The PSS measures the extent to which individuals perceive situations in their lives as stressful. The PSS has a theoretical score range from 0 to 40. No clinical cut-offs for PSS scores have been established.
 
-Another reference for MDI:
+Some prior BHLL-studies have grouped PSS into low (score of 0–13), moderate (score of 14–26), or high (score of 27–40).
 
-1.  Bech P, Timmerby N, Martiny K, et al. Psychometric evaluation of the **Major Depression Inventory (MDI)** as depression severity scale using the LEAD (Longitudinal Expert Assessment of All Data) as index of validity. BMC Psychiatry 2015;15:190.
+##### Some methodological considerations on how to use PSS:
+
+Dichotomization of the PSS-10 into “minimal” versus “moderate-to-high” stress, was based on a clinically oriented framework intended to enhance interpretability and align with prior literature, including previously published studies using the same approach (e.g. Viuff JH, Martiny SK, Fuglsang CH, et al. Self-rated health in venous thromboembolism survivors: a prevalence study. *J Thromb Haemost* 2025; 23: 2522-2530). We acknowledge that these thresholds are not formally validated and that categorization may reduce information.
+
+We considered alternative model specifications. However, modeling PSS-10 as a continuous variable would require assumptions regarding the linearity and clinical interpretability of unit changes in perceived stress, for which there is limited established clinical meaning.
+
+We agree that continuous modeling is generally preferable for maximizing statistical power, and this limitation has been acknowledged.
+
+### Danish translations:
+
+Regarding Danish translations of the different questions see: <https://www.dovepress.com/article/supplementary_file/436617/436617.pdf>
 
 Edited: Morten Madsen 27/5-2025 and 27/2-2026
 
