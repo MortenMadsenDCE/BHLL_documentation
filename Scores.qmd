@@ -17,7 +17,7 @@ E:\\ProjektDB\\KEA\\Workdata\\709876\\Studybase_prep\\002 BHLL scores - MCS PCS 
 
 ## About the scores:
 
-### MCS and PCS:
+### Physical Component Summary (PCS) and Mental Component Summary (MCS):
 
 MCS and PCS has been officially scored from the SF-12 questions using software from Quality Metrics. And we have payed to be able to use questions and scores. (Cecilia was the KEA representatitve who made the agreement with Quality Metrics). If the SF-12 questions or MCS/PCS scores are used we should reference in the paper. In the cohort profile paper it is done by the following line: "Self-assessed health was evaluated using the 12-item short-form health survey known as SF12v2 (Quality Metric Incorporated, license no. QM053156)"
 
