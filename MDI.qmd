@@ -10,7 +10,7 @@ editor: visual
 
 Suggested (and prepared) use of MDI-score and MDI_depression based on MDI-questions:
 
-1.  The sum of the 10 questions can be summed up to a total score (theoretically ranging from 0-50). Varname: *MDI_score* \[what about missingness here???\]
+1.  The sum of the 10 questions can be summed up to a total score (theoretically ranging from 0-50). Varname: *MDI_score*
 
 2.  Evaluating the answers like the ICD-10 diagnostic criterion: Stored in the variable *MDI_depression*
 
