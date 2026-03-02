@@ -84,6 +84,6 @@ The questions (table1):
 
 Clinical Psychometrics. John Wiley & Sons, Ltd; 2012:153-153. doi:10.1002/9781118511800.app13
 
-*Return to [Scores overview](scores.html)*
+*Return to [Scores overview](Scores.html)*
 
 *Return to [main BHLL-overview](main_ver01.html)*
