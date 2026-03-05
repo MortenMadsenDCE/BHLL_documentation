@@ -31,9 +31,9 @@ MDI is represented by two different variables (can be used in two different ways
 
 1.  The sum of the 10 questions can be summed up to a total score (theoretically ranging from 0-50). Varname: *MDI_score* \[what about missingness here???\]
 
-2.  Evaluating the answers like the ICD-10 diagnostic criterion: Stored in the variable *MDI_depression*
+2.  Evaluating the answers like the ICD-10 diagnostic criterion (but not seen by specialist, so not a real diagnosis): Stored in the variable *MDI_ICD10*
 
-Find [a more thorough description of the algorithm (especially for MDI_depression) here](MDI.html)
+Find [a more thorough description of the algorithm (especially for MDI_ICD10) here](MDI.html)
 
 ### Perceived Stress Scale (PSS):
 
