@@ -64,13 +64,13 @@ uACR identified by two codes\>=30 mg/g, separated by at least 90 days (disregard
 
 The algorithm has been run on the full population aged 50-65, (including the the BHLL-cohort). The dataset is named **DK5065_ckd** (a dated version is also available). At:
 
-E:\\ProjektDB\\KEA\\Workdata\\708194\\Morten Madsen\\survey50+\\CKD_Anne\\WorkCKD\\
+E:\\ProjektDB\\KEA\\Workdata\\709876\\MortenM\\BHLL\\24_02_CKD_Anne\\WorkCKD\\
 
 The SAS programs for preparing the the dataset are:
 
--   E:\\ProjektDB\\KEA\\Workdata\\708194\\Morten Madsen\\survey50+\\CKD_Anne\\04 inpat_acute.sas
+-   E:\\ProjektDB\\KEA\\Workdata\\709876\\MortenM\\BHLL\\24_02_CKD_Anne\\04 inpat_acute.sas
 
--   E:\\ProjektDB\\KEA\\Workdata\\708194\\Morten Madsen\\survey50+\\CKD_Anne\\05_CKD_lab.sas
+-   E:\\ProjektDB\\KEA\\Workdata\\709876\\MortenM\\BHLL\\24_02_CKD_Anne\\05_CKD_lab.sas
 
 The **DK5065_ckd** SAS-dataset includes the following variables:
 
@@ -82,5 +82,7 @@ The **DK5065_ckd** SAS-dataset includes the following variables:
 -   **CKD_or_uACR** (binary) found as max(CKD, uACR)
 
 Morten Madsen 10/6 - 2025
+
+Updated to 709876 by Morten Madsen d. 13/3-2026
 
 *Return to [main BHLL-overview](main_ver01.html)*
